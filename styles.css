@@ -1,3 +1,14 @@
 body {
   background-color: lightgray;
 }
+
+.paddle {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #000;
+  transform: rotate(-90deg);
+  position: absolute;
+  background: #0000ff;
+  top: 200px;
+  left: 0px;
+}
